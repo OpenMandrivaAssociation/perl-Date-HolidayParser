@@ -12,6 +12,7 @@ Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/ReadLine/%{module}-%{version}.tar.bz2
 URL:		http://search.cpan.org/dist/%{module}
 BuildRequires:	perl
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
 %description
