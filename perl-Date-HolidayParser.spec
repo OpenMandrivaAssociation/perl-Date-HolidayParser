@@ -1,5 +1,5 @@
 %define upstream_name	 Date-HolidayParser
-%define upstream_version 0.3
+%define upstream_version 0.4
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	Parser for ~/.holiday-style files
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/ReadLine/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/ReadLine/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
