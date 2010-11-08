@@ -1,5 +1,5 @@
 %define upstream_name	 Date-HolidayParser
-%define upstream_version 0.4
+%define upstream_version 0.41
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
