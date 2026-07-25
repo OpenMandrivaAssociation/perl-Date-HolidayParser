@@ -1,15 +1,15 @@
 %define upstream_name	 Date-HolidayParser
-%define upstream_version 0.41
+%define upstream_version 0.43
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Parser for ~/.holiday-style files
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/ReadLine/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Date-HolidayParser
+Source0:	https://cpan.metacpan.org/authors/id/Z/ZE/ZERODOGG/Date-HolidayParser-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
